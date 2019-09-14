@@ -28,6 +28,9 @@ public class AlunoMenuACtivity extends AppCompatActivity {
         for(int i = 0 ; i<= 15 ; i++){
             lista.add("BATATA");
         }
+
+
+
         list_disciplinas = (ListView) findViewById(R.id.list_disciplinas);
         DisciplinaAdapter adapter = new DisciplinaAdapter(lista, this);
         list_disciplinas.setAdapter(adapter);

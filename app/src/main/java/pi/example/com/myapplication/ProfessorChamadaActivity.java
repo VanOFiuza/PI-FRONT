@@ -42,6 +42,6 @@ public class ProfessorChamadaActivity extends AppCompatActivity {
             }
         });
 
-
+        new ExemploRequisicao(ProfessorChamadaActivity.this,"03253670000108").execute();
     }
 }
